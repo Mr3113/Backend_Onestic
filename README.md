@@ -17,6 +17,7 @@ Se recorren los ids de [customers.csv](customers.csv), y cuando uno de estos cos
 
 ## Frontend:
 Con todo lo anterior realizado, probé a crear una página web en la cual se pudiera seleccionar uno de los tres reportes y, tras apretar el botón de descargar, se generara un el archivo .csv correspondiente al reporte elegido. 
+
 Todo lo necesario para crear la página web está incluido dentro de la carpeta [frontend](frontend), en la que podemos observar código en HTML, CSS y JS, mientras que dentro de esta carpeta se halla la de archivos, donde se encuentran los 3 csvs proporcionados y un código en python. Este código debería ejecutarse cuando se aprieta el botón de descargar, pero tras muchas pruebas no he conseguido que funcione. Debido al trabajo que he realizado para poner la web en funcionamiento y diseñarla, creo que era relevante añadirlo y que pudierais verlo, a pesar de que el objetivo que tenia propuesto no lo haya cumplido.
 
 ## Documentación:
