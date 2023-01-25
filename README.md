@@ -16,7 +16,7 @@ Se recorren los ids de [products.csv](products.csv), se comprueba que coincidan 
 Se recorren los ids de [customers.csv](customers.csv), y cuando uno de estos costumers haga un pedido con ciertos productos, se recorre cada uno de los productos y se accede a su coste guardado en [products.csv](products.csv). Obtenemos el total de todos los productos para un cliente haciendo un sumatorio del coste de cada uno de los productos comprados por dicho cliente y esto, junto con el id, el nombre y los apellidos del cliente se alamcena en [customer_ranking.csv](customer_ranking.csv)
 
 ## Frontend:
-Con todo lo anterior realizado, probé a crear una página web en la cual se pudiera seleccionar uno de los tres reportes y, tras apretar el botón de descargar, se generara un el archivo .csv correspondiente al reporte elegido. 
+Con todo lo anterior realizado, probé a crear una página web en la cual se pudiera seleccionar uno de los tres reportes y, tras apretar el botón de descargar, se generara un archivo .csv correspondiente al reporte elegido. 
 
 Todo lo necesario para crear la página web está incluido dentro de la carpeta [frontend](frontend), en la que podemos observar código en HTML, CSS y JS, mientras que dentro de esta carpeta se halla la de archivos, donde se encuentran los 3 csvs proporcionados y un código en python. Este código debería ejecutarse cuando se aprieta el botón de descargar, pero tras muchas pruebas no he conseguido que funcione. Debido al trabajo que he realizado para poner la web en funcionamiento y diseñarla, creo que era relevante añadirlo y que pudierais verlo, a pesar de que el objetivo que tenia propuesto no lo haya cumplido.
 
