@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Onestic DJE - backend</title>
+    <link rel="shortcut icon" href="upload/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="no-js">
+    <section class="main">
+        <header>
+            <div class="wrap">
+                <div class="logo">
+                    <a href="/">
+                        <img src="upload/onestic.jpg" width="262" height="52">
+                    </a>
+                </div><!-- logo -->
+            </div><!-- wrap -->
+        </header>
+        <section class="promo">
+            <div class="wrap">
+                <div class="promo-text"><br>
+                    <div class="promo-title">Prueba técnica developer junior engineer - backend</div><br>
+                    <div class="promo-title2">Reporte 1:</div>
+                    <div class="promo-title3">El equipo de ventas quiere saber el total de cada pedido</div><br>
+                    <div class="promo-title2">Reporte 2:</div>
+                    <div class="promo-title3">El equipo de marketing quiere saber que clientes han comprado cada producto</div><br>
+                    <div class="promo-title2">Reporte 3:</div>
+                    <div class="promo-title3">Para evaluar a los clientes, necesitamos un fichero que contenga todos los pedidos ordenados descendentemente por el total en euros</div><br>
+                </div><!-- promo-text -->
+            </div><!-- wrap -->
+        </section><!-- promo -->
+        <section class="simple">
+            <div class="wrap">
+                <h1><b>Selecciona aquellos reportes que quieres descargar:</b></h1>
+                <form action="archivos/backend_html.py" name="formulario" method="post">
+                    <p>
+                      <label><input type="checkbox" name="cb-1" value="on"> Reporte 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      <label><input type="checkbox" name="cb-2" value="on"> Reporte 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                      <label><input type="checkbox" name="cb-3" value="on"> Reporte 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    </p>                 
+                    <p><input type="submit" value=" Descargar "></p>                 
+                  </form>
+            </div><!-- wrap -->
+        </section><!-- simple -->
+    </section><!-- main -->
+    <script src="js/jquery.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/retina.js"></script>
+</body>
+</html>
