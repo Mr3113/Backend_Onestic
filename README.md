@@ -15,6 +15,10 @@ Se recorren los ids de [products.csv](products.csv), se comprueba que coincidan 
 ### Reporte 3: todos los pedidos ordenados descendentemente por el total en euros 
 Se recorren los ids de [customers.csv](customers.csv), y cuando uno de estos costumers haga un pedido con ciertos productos, se recorre cada uno de los productos y se accede a su coste guardado en [products.csv](products.csv). Obtenemos el total de todos los productos para un cliente haciendo un sumatorio del coste de cada uno de los productos comprados por dicho cliente y esto, junto con el id, el nombre y los apellidos del cliente se alamcena en [customer_ranking.csv](customer_ranking.csv)
 
+## Frontend:
+Con todo lo anterior realizado, probé a crear una página web en la cual se pudiera seleccionar uno de los tres reportes y, tras apretar el botón de descargar, se generara un el archivo .csv correspondiente al reporte elegido. 
+Todo lo necesario para crear la página web está incluido dentro de la carpeta [frontend](frontend)
+
 ## Documentación:
 - Para borrar el índice que se genera a la hora de guardar el csv resultante para cada uno de los reportes, he accedido a la página web de https://www.delftstack.com/es/howto/python-pandas/pandas-remove-index/
 - Para quitar el espacio en blanco que se generaba al final de la columna costumers_ids para el segundo reporte he consultado en el siguiente enlace: https://j2logo.com/eliminar-espacios-en-blanco-string-strip-python/
